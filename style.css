@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body.home {
+  background: url('home-bg.jpg') center/cover no-repeat fixed;
+}
+
+body.menu {
+  background: url('menu-bg.jpg') center/cover no-repeat fixed;
+}
+
+body.about {
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/056/368/801/small/irresistible-chocolate-chip-cookies-on-rustic-wooden-table-photo.jpeg') center/cover no-repeat fixed;
+}
+
+body.contact {
+  background: url('contact-bg.jpg') center/cover no-repeat fixed;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* NAVBAR */
+header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 28px;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  z-index: 1000;
+  transition: 0.3s ease;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.menu a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #ffb703;
+}
+
+.btn {
+  background: #ffb703;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #ff9f1c;
+}
+
+.btn.large {
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)),
+    url("https://media.istockphoto.com/id/1265001647/photo/chocolate-chip-cookies.jpg?s=612x612&w=0&k=20&c=3fhn-GzRbWuHJmjWbjaga5mkD9S673OtJv9gMUSSoBo=");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 480px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 60px 8%;
+  background: #111;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+  min-width: 200px;
+  text-align: center;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* SCROLL EFFECT */
+.scrolled {
+  background: rgba(0,0,0,0.9);
+}
